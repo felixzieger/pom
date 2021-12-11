@@ -18,4 +18,4 @@ jobs:
 
           deno install $(deno run ./src/flags.ts) -f --name pom ./src/main.ts
 
-          ./test/all.sh pom
+          pom --help
