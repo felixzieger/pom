@@ -6,7 +6,6 @@ deno_flags=$(deno run ./src/flags.ts --quiet)
 
 compile(){
   target="$1"
-
   deno compile $deno_flags --target "$target" --output "./bin/pom-$target" src/main.ts
 }
 

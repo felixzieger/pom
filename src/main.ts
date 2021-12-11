@@ -11,7 +11,7 @@ interface Options {
 const { options } = await new Command()
   .name("pom")
   .version(VERSION)
-  .description("Pomodoro CLI")
+  .description("A calm pomodoro timer cli.")
   .option("--duration <duration:integer>", "Duration in minutes", {
     default: 25,
     value: (value: number): Minutes => {
@@ -23,8 +23,14 @@ const { options } = await new Command()
       return new Minutes(value);
     },
   })
-  .option("--no-progress-bar", "No progress bar")
-  .option("--no-desktop-notification", "No desktop notification")
+  .option(
+    "--no-progress-bar",
+    "Hide the progress bar that shows how much time is left.",
+  )
+  .option(
+    "--no-desktop-notification",
+    "Do not show a desktop notification when the time is up.",
+  )
   .parse(Deno.args);
 
 function delay(s: Seconds) {
