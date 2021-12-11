@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/felixzieger/pom/actions/workflows/build.yaml">
-    <img src="https://github.com/felixzieger/pom/actions/workflows/build.yml/badge.svg">
+    <img src="https://github.com/felixzieger/pom/actions/workflows/build.yaml/badge.svg">
   </a>
   <a href="https://github.com/felixzieger/pom/graphs/contributors">
     <img src="https://img.shields.io/badge/maintained-true-green">
