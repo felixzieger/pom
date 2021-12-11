@@ -10,6 +10,11 @@ compile(){
   deno compile $deno_flags --target "$target" --output "./bin/pom-$target" src/main.ts
 }
 
+# Currently the apple-darwin and unknown-linux-gnu binaries are not usable because of
+# 
+#   error: Uncaught SyntaxError: Identifier 'path1' has already been declared
+#     at file://$deno$/bundle.js:2316:0
+
 compile "x86_64-unknown-linux-gnu"
 compile "x86_64-apple-darwin"
 compile "x86_64-pc-windows-msvc"
