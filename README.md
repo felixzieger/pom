@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/felixzieger/pom/actions/workflows/build.yml">
+  <a href="https://github.com/felixzieger/pom/actions/workflows/build.yaml">
     <img src="https://github.com/felixzieger/pom/actions/workflows/build.yml/badge.svg">
   </a>
-  <a href="https://github.com/felixzieger/pomgraphs/contributors">
+  <a href="https://github.com/felixzieger/pom/graphs/contributors">
     <img src="https://img.shields.io/badge/maintained-true-green">
   </a>
-  <a href="https://github.com/felixzieger/pom/blob/develop/LICENSE">
+  <a href="https://github.com/felixzieger/pom/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/felixzieger/pom">
   </a>
   <a href="https://github.com/felixzieger/pom/releases">
